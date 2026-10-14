@@ -1,5 +1,5 @@
 /* =========================================================
-   FAJARA GARDEN APP
+   Chopotinos Deli APP
 ========================================================= */
 
 
@@ -8,208 +8,113 @@
 ========================================================= */
 
 const menuData = [
-
     {
-        id: 1,
-        name: "Garden Grill",
-        description: "Chef's grilled selection served with fresh sides.",
-        price: 420,
-        category: "Food",
-        meals: [
+        "id": 1,
+        "name": "Club Sandwich",
+        "description": "Sample deli sandwich with fresh sides.",
+        "price": 320,
+        "category": "Food",
+        "meals": [
             "lunch",
             "dinner"
         ],
-        tags: [
-            "grilled",
-            "filling",
-            "savory"
-        ],
-        image:
-            "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=85"
-    },
-
-    {
-        id: 2,
-        name: "Garden Special",
-        description: "One of our signature house selections.",
-        price: 350,
-        category: "Food",
-        meals: [
+        "tags": [
+            "sandwich",
             "lunch",
-            "dinner"
+            "fresh"
         ],
-        tags: [
-            "special",
-            "filling",
-            "savory",
-            "house favorite"
-        ],
-        image:
-            "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=1000&q=85"
+        "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1000&q=85"
     },
-
     {
-        id: 3,
-        name: "Fresh Garden Bowl",
-        description: "Fresh vegetables, flavourful toppings and dressing.",
-        price: 290,
-        category: "Food",
-        meals: [
+        "id": 2,
+        "name": "Beef Burger",
+        "description": "Sample beef burger with fries.",
+        "price": 390,
+        "category": "Food",
+        "meals": [
             "breakfast",
             "lunch",
             "dinner"
         ],
-        tags: [
-            "fresh",
-            "light",
-            "healthy",
-            "vegetables"
+        "tags": [
+            "burger",
+            "beef",
+            "filling"
         ],
-        image:
-            "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85"
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=1000&q=85"
     },
-
     {
-        id: 4,
-        name: "Grilled Chicken",
-        description: "Tender grilled chicken with a smoky finish.",
-        price: 380,
-        category: "Food",
-        meals: [
+        "id": 3,
+        "name": "Chicken Wrap",
+        "description": "Sample chicken wrap with salad.",
+        "price": 300,
+        "category": "Food",
+        "meals": [
+            "breakfast",
             "lunch",
             "dinner"
         ],
-        tags: [
-            "grilled",
+        "tags": [
+            "wrap",
             "chicken",
-            "filling",
-            "savory"
-        ],
-        image:
-            "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=1000&q=85"
-    },
-
-    {
-        id: 5,
-        name: "Garden Fresh Juice",
-        description: "Cold, fresh and made for a hot afternoon.",
-        price: 110,
-        category: "Drinks",
-        meals: [
-            "breakfast",
-            "lunch",
-            "dinner"
-        ],
-        tags: [
-            "fresh",
-            "light",
-            "juice",
-            "cold"
-        ],
-        image:
-            "https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=1000&q=85"
-    },
-
-    {
-        id: 6,
-        name: "Garden Mojito",
-        description: "Fresh mint, citrus and a refreshing finish.",
-        price: 150,
-        category: "Drinks",
-        meals: [
-            "lunch",
-            "dinner"
-        ],
-        tags: [
-            "fresh",
-            "refreshing",
-            "citrus",
-            "cold"
-        ],
-        image:
-            "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1000&q=85"
-    },
-
-    {
-        id: 7,
-        name: "Iced Coffee",
-        description: "Smooth coffee served chilled.",
-        price: 125,
-        category: "Drinks",
-        meals: [
-            "breakfast",
             "lunch"
         ],
-        tags: [
-            "coffee",
-            "morning",
-            "cold",
-            "light"
-        ],
-        image:
-            "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=1000&q=85"
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=85"
     },
-
     {
-        id: 8,
-        name: "Garden Dessert",
-        description: "A sweet finish for your meal.",
-        price: 180,
-        category: "Desserts",
-        meals: [
-            "lunch",
-            "dinner"
-        ],
-        tags: [
-            "sweet",
-            "dessert",
-            "treat"
-        ],
-        image:
-            "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1000&q=85"
-    },
-
-    {
-        id: 9,
-        name: "Chocolate Cake",
-        description: "Rich chocolate cake with a soft centre.",
-        price: 160,
-        category: "Desserts",
-        meals: [
+        "id": 4,
+        "name": "Golden Fries",
+        "description": "Sample crispy fries portion.",
+        "price": 180,
+        "category": "Food",
+        "meals": [
             "breakfast",
             "lunch",
             "dinner"
         ],
-        tags: [
-            "sweet",
-            "chocolate",
-            "dessert",
-            "cake"
+        "tags": [
+            "fries",
+            "crispy",
+            "snack"
         ],
-        image:
-            "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1000&q=85"
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=85"
     },
-
     {
-        id: 10,
-        name: "Vanilla Cheesecake",
-        description: "Creamy cheesecake with a smooth finish.",
-        price: 190,
-        category: "Desserts",
-        meals: [
+        "id": 5,
+        "name": "Fresh Juice",
+        "description": "Sample refreshing juice.",
+        "price": 140,
+        "category": "Drinks",
+        "meals": [
+            "breakfast",
             "lunch",
             "dinner"
         ],
-        tags: [
-            "sweet",
-            "cheesecake",
-            "dessert",
-            "creamy"
+        "tags": [
+            "juice",
+            "fresh",
+            "cold"
         ],
-        image:
-            "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=1000&q=85"
+        "image": "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+        "id": 6,
+        "name": "Brownie",
+        "description": "Sample chocolate brownie.",
+        "price": 160,
+        "category": "Desserts",
+        "meals": [
+            "breakfast",
+            "lunch",
+            "dinner"
+        ],
+        "tags": [
+            "chocolate",
+            "sweet",
+            "dessert"
+        ],
+        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1000&q=85"
     }
-
 ];
 
 
@@ -397,7 +302,7 @@ document.addEventListener(
 
         setupFloatingActions();
 
-        setupDemoSaleBanner();
+        if (!window.RESTAURANT_CONFIG?.demoPreview) setupDemoSaleBanner();
 
         updateTabIndicator(
             currentPage
@@ -435,7 +340,7 @@ document.addEventListener(
 
 
         /*
-         * Auto-open Garden AI once
+         * Auto-open Menu Assistant once
          */
 
         setTimeout(
@@ -443,16 +348,16 @@ document.addEventListener(
 
                 const hasSeenGardenAI =
                     sessionStorage.getItem(
-                        "fajara-garden-ai-seen"
+                        "chopotinos-deli-gambia-menu-assistant-seen"
                     );
 
 
-                if (!hasSeenGardenAI) {
+                if (!hasSeenGardenAI && !window.RESTAURANT_CONFIG?.demoPreview) {
 
                     openGardenAI();
 
                     sessionStorage.setItem(
-                        "fajara-garden-ai-seen",
+                        "chopotinos-deli-gambia-menu-assistant-seen",
                         "true"
                     );
 
@@ -1648,19 +1553,20 @@ if (checkoutButton) {
                 );
 
             const message =
-                `Hello Fajara Garden 👋\n\n` +
+                `Hello Chopotinos Deli 👋\n\n` +
                 `I'd like to place this order:\n\n` +
                 `${orderLines}\n\n` +
                 `Total: D${total}\n\n` +
                 `Please confirm availability and the next steps.`;
 
             const whatsappURL =
-                `https://wa.me/2205453305?text=${encodeURIComponent(message)}`;
+                `https://wa.me/2207142131?text=${encodeURIComponent(message)}`;
 
-            window.open(
-                whatsappURL,
-                "_blank"
-            );
+            if (window.RESTAURANT_CONFIG?.demoPreview) {
+                showToast("Concept preview only — sample menu and prices are not confirmed.");
+                return;
+            }
+            window.open(whatsappURL, "_blank");
 
         }
     );
@@ -2801,7 +2707,7 @@ function setupFloatingActions() {
             () => {
 
                 window.location.href =
-                    "tel:+2205453305";
+                    "tel:+2207142131";
 
             }
         );
@@ -2945,14 +2851,15 @@ function setupReservation() {
 
             const reservationMessage =
                 encodeURIComponent(
-                    "Hello Fajara Garden 👋 I would like to reserve a table."
+                    "Hello Chopotinos Deli 👋 I would like to reserve a table."
                 );
 
 
-            window.open(
-                `https://wa.me/2205453305?text=${reservationMessage}`,
-                "_blank"
-            );
+            if (window.RESTAURANT_CONFIG?.demoPreview) {
+                showToast("Concept preview only — reservations activate after owner approval.");
+                return;
+            }
+            window.open(`https://wa.me/2207142131?text=${reservationMessage}`, "_blank");
 
         }
     );
@@ -3093,7 +3000,7 @@ function setupGardenAIIntro() {
     if (gardenAIDescription) {
 
         gardenAIDescription.textContent =
-            `I'll check what's available for ${period.label} at Fajara Garden, ask you a few quick questions and build a recommendation around what you actually like.`;
+            `I'll check what's available for ${period.label} at Chopotinos Deli, ask you a few quick questions and build a recommendation around what you actually like.`;
 
     }
 
@@ -3296,7 +3203,7 @@ function beginGardenAI() {
 
 
     addAIMessage(
-        `Hey 👋 I'm Garden AI. It's a good time for ${period.label}. I checked the menu and found ${availableItems.length} item${availableItems.length === 1 ? "" : "s"} available for this meal period.`
+        `Hey 👋 I'm Menu Assistant. It's a good time for ${period.label}. I checked the menu and found ${availableItems.length} item${availableItems.length === 1 ? "" : "s"} available for this meal period.`
     );
 
 
@@ -4630,7 +4537,7 @@ function setupDemoSaleBanner() {
 
             <p>
 
-                This Fajara Garden website was
+                This Chopotinos Deli website was
                 designed by Israel from
                 <strong>Squashberry Co.</strong>
                 and is available for purchase.
@@ -4730,7 +4637,7 @@ function setupDemoSaleBanner() {
      */
 
     sessionStorage.removeItem(
-        "fajara-demo-sale-dismissed"
+        "chopotinos-deli-gambia-demo-sale-dismissed"
     );
 
 
@@ -4825,7 +4732,7 @@ function setupDemoSaleBanner() {
 
 
         sessionStorage.setItem(
-            "fajara-demo-sale-dismissed",
+            "chopotinos-deli-gambia-demo-sale-dismissed",
             "true"
         );
 
